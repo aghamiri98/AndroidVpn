@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <View
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_weight="1"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/sel_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/primary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/subscription"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text20" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/premium"
+                android:layout_marginRight="160dp"/>
+
+            <TextView
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                android:text="Premium"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1dp"
+                android:text="Get Fastest Premium Proxy Servers "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="-40dp"/>
+
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ads"
+                android:layout_marginRight="160dp"/>
+
+            <TextView
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                android:text="No Ads"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1dp"
+                android:text="Injoy Full Ads Free servers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="-40dp"/>
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/speed"
+                android:layout_marginRight="160dp"/>
+
+            <TextView
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                android:text="Top Speed"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1dp"
+                android:text="Get High Speed Server / Proxy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="-40dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            </LinearLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_subscriptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_buy"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/sub_buy"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
