@@ -618,6 +618,6 @@ Reference: https://issuetracker.google.com/issues/37011385
 
 You can find source code of sample app with integrated sdk on [GitHub](https://github.com/AnchorFreePartner/hydrasdk-demo-android)
 
-## Contact US
+## Contact US ( For HydraVPN SDK for Android Team )
 
 Have problems integrating the sdk or found any issue, feel free to submit bug to [GitHub](https://github.com/AnchorFreePartner/hydrasdk-demo-android/issues/new)
